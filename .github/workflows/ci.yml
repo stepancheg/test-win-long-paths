@@ -16,4 +16,4 @@ jobs:
                   toolchain: stable
                   override: true
             - name: The test
-              run: ./test.sh
+              run: bash ./test.sh
