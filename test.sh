@@ -10,9 +10,8 @@ git clone https://github.com/tokio-rs/bytes
 
 mv bytes "$d"
 
-ls "$d/bytes"
-
-test -e "$d/bytes/Cargo.toml"
+# Check exists
+ls -l "$d/bytes/Cargo.toml"
 
 cargo build --manifest-path "$d/bytes/Cargo.toml"
 
