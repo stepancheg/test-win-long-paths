@@ -15,3 +15,5 @@ jobs:
                   profile: minimal
                   toolchain: stable
                   override: true
+            - name: The test
+              run: ./test.sh
